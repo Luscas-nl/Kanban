@@ -1,0 +1,36 @@
+.SearchAreaBox{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.filterButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 55px;
+    width: 120px;
+    background-color: #7D1AA7;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 0 25px;
+    cursor: pointer;
+    user-select: none;
+    transition: .2s ease;
+}
+
+.filterButton > i{
+    font-size: 1.3em;
+}
+
+.filterButton > p{
+    font-size: .95em;
+}
+
+.filterButton:hover{
+    opacity: .9;
+}

@@ -1,0 +1,83 @@
+.App{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background: rgb(87,35,141);
+  background: linear-gradient(0deg, rgba(87,35,141,1) 0%, rgba(164,20,194,1) 100%);
+  align-items: center;
+}
+
+.NoteBox{
+  border-top-left-radius: 35px;
+  background-color: #202124;
+  width: calc(100vw - 300px);
+  height: 96%;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 60px 0px 60px;
+}
+
+.KanbanInfosBox{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.TitleInfosBox{
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.TitleInfosBox > i{
+  margin-left: 11px;
+  font-size: 2em;
+  color: gray;
+  cursor: pointer;
+}
+
+.TitleInfosBox > i:hover{
+  color: white;
+}
+
+.imgInfosBox{
+  cursor: pointer;
+  height: 57px;
+  border-radius: 57px;
+  background: linear-gradient(45deg, rgba(87,35,141,1) 0%, rgba(164,20,194,1) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  transition: 0.2s ease;
+}
+
+.imgInfosBox > img{
+  width: 49px;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  pointer-events: none;
+  user-select: none;
+}
+
+.imgInfosBox > i{
+  font-size: 2em;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.imgInfosBox:hover{
+  opacity: .7;
+}
+
+.NoteArea{
+  padding-top: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
