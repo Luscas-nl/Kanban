@@ -81,3 +81,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+.NoteList{
+  width: 33%;
+}
+
+.notesBox{
+  width: 100%;
+}

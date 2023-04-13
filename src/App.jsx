@@ -3,7 +3,7 @@ import './App.css'
 import Menu from './components/Menu/Index'
 import SearchArea from './components/SearchArea/Index'
 import ImageProfile from './assets/Images/Profile.png'
-import NoteList from './components/NotesList/Index'
+import Note from './components/Note/Index'
 
 function App() {
   return (
@@ -24,9 +24,18 @@ function App() {
       <SearchArea />
 
       <div className="NoteArea">
-        <NoteList />
-        <NoteList type="Fazendo" />
-        <NoteList type="Terminado" />
+        <div className="NoteList">
+            <h2 className="typeTitle">{"Fazer"}</h2>
+            <div className="notesBox">
+              <Note />
+            </div>
+        </div>
+        <div className="NoteList">
+            <h2 className="typeTitle">{"Fazendo"}</h2>
+        </div>
+        <div className="NoteList">
+            <h2 className="typeTitle">{"Terminado"}</h2>
+        </div>
       </div>
 
       </div>
