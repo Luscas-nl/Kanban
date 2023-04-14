@@ -28,13 +28,28 @@ function App() {
             <h2 className="typeTitle">{"Fazer"}</h2>
             <div className="notesBox">
               <Note />
+              <Note desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat."/>
+              <Note />
+              <Note desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat."/>
             </div>
         </div>
         <div className="NoteList">
             <h2 className="typeTitle">{"Fazendo"}</h2>
+            <div className="notesBox">
+              <Note prog="work" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat."/>
+              <Note prog="work" />
+              <Note prog="work" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat."/>
+              <Note prog="work" />
+            </div>
         </div>
         <div className="NoteList">
             <h2 className="typeTitle">{"Terminado"}</h2>
+            <div className="notesBox">
+              <Note prog="finish" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat."/>
+              <Note prog="finish" />
+              <Note prog="finish" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat."/>
+              <Note prog="finish" />
+            </div>
         </div>
       </div>
 
