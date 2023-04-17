@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding-bottom: 65px;
+    margin-bottom: 50px;
 }
 
 .filterButton{
@@ -34,4 +34,11 @@
 
 .filterButton:hover{
     opacity: .9;
+}
+
+@media only screen and (max-width:1366px){
+    .SearchAreaBox{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }

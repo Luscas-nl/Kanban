@@ -6,6 +6,20 @@ import ImageProfile from './assets/Images/Profile.png'
 import Note from './components/Note/Index'
 
 function App() {
+
+  function OnDragOver(e){
+    e.preventDefault()
+  }
+
+  function OnDrop(e){
+    const id = e.dataTransfer.getData('text')
+    const dragElement = document.getElementById(id)
+    const dropZone = e.target
+
+    dropZone.insertAdjacentHTML('beforeend', dragElement)
+    e.dataTransfer.clearData()
+  }
+
   return (
     <div className="App">
       <Menu />
@@ -26,7 +40,7 @@ function App() {
       <div className="NoteArea">
         <div className="NoteList">
             <h2 className="typeTitle">{"Fazer"}</h2>
-            <div className="notesBox">
+            <div className="notesBox" onDragOver={OnDragOver} onDrop={OnDrop}>
               <Note />
               <Note desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur vero repellat, reprehenderit illum saepe dolor facere molestias sapiente quaerat."/>
               <Note />
